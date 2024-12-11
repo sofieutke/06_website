@@ -4,4 +4,29 @@
 .logo {
   max-width: 150px;
   height: auto;
+  margin-left: 15px;
+}
+
+/************* Burger menu *********/
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+    background-color: #f2e7dc;
+  }
+
+  .burger-menu {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+  }
+
+  .burger-menu img {
+    width: 80px;
+    height: auto;
+  }
 }

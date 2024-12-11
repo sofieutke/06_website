@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Lato:wght@700&family=Lexend+Exa:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="billeder/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="login.js">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="billeder/logo.png" alt="logo" class="logo">
+        </a>
+
+        <div class="burger-menu" onclick="toggleMenu()">
+            <img src="billeder/burgermenu.png" alt="burgermenu">
+        </div>
+    </header>
+
+    <main>
+
+        <div class="video-container">
+            <video autoplay muted loop playsinline class="fullscreen-video">
+                <source src="LunaDent.mp4" type="video/mp4">
+            </video>
+        </div>
+        <section class="grid1_1_1">
+            <div class="image">
+                <img src="billeder/lunadent.png" alt="lunadent">
+            </div>
+            <div class="text">
+                <h1>LunaDent: The World's First Safe Sleep-Inducing Toothpaste</h1>
+                <p>
+                    Fall asleep effortlessly with LunaDent! Clinically tested and made from natural ingredients,
+                    this
+                    innovative toothpaste
+                    blends calming botanicals and sleep aids to transform your bedtime routine into a peaceful,
+                    restful
+                    experience.
+                </p>
+                <div class="knap-container">
+                    <a href="readmore.html" class="shopknap">Read more</a>
+                </div>
+            </div>
+
+
+            <div class="text">
+                <h1>Baby LunaDent: Natural Sleep-Friendly Toothpaste for Kids
+                </h1>
+                <p>
+                    Help your little ones wind down with Baby Luna Dent! Clinically tested and made with safe, natural
+                    ingredients like
+                    chamomile and lavender, it supports healthy teeth while promoting relaxation for peaceful sleep.</p>
+                <div class="knap-container">
+                    <a href="readmore.html" class="shopknap">Read more</a>
+                </div>
+            </div>
+
+            <div class="image">
+                <img src="billeder/babyluna.png" alt="babyluna">
+            </div>
+
+            <div class="image">
+                <img src="billeder/3packluna.png" alt="3packluna">
+            </div>
+
+            <div class="text">
+                <h1>LunaDent Sleep-Reducing 3-pack Toothpaste</h1>
+                <p>
+                    The LunaDent 3-Pack ensures your favorite natural toothpaste is always within reach. Infused with
+                    chamomile and
+                    lavender, it promotes relaxation and gently cares for your teeth, making bedtime routines
+                    peaceful and soothing
+                    wherever you are.
+                </p>
+                <div class="knap-container">
+                    <a href="readmore.html" class="shopknap">Read more</a>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+        function goToGamePage() {
+            window.location.href = "readmore.html";
+        }
+    </script>
+    <footer></footer>
+</body>
+
+</html>
